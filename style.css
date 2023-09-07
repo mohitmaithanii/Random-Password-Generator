@@ -1,0 +1,178 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+* {
+   margin: 0;
+   padding: 0;
+   font-family: "Poppins", sans-serif;
+   box-sizing: border-box;
+}
+html {
+   font-size: 100%;
+}
+body {
+   background: white;
+   color: black;
+}
+
+.container {
+   width: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+
+.box-1 {
+   width: 50%;
+   padding-left: 7%;
+}
+.box-1 .display {
+   display: flex;
+   width: 100%;
+   margin-top: 3rem;
+   margin-bottom: 3rem;
+   border: 0.3rem solid black;
+   background: white;
+   color: white;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding: 1.5rem 1.5rem;
+   border-radius: 1rem;
+}
+
+.box-1 h1 {
+   font-weight: 500;
+   font-size: 2rem;
+   color: #383873;
+}
+
+.box-1 h1 span {
+   font-size: 1.8rem;
+   font-weight: 800;
+   color: #ff6224;
+   border-bottom: 0.3rem solid #ff6224;
+}
+
+.box-1 img {
+   width: 2.5rem;
+   cursor: pointer;
+}
+.box-1 input {
+   width: 100%;
+   border: 0;
+   outline: 0;
+   font-size: 2rem;
+   margin: -0.1rem;
+}
+.box-1 button img {
+   width: 1.5rem;
+}
+.box-1 button {
+   border: 0;
+   outline: 0;
+   background: #159294;
+   color: white;
+   font-size: 1rem;
+   font-weight: 500;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   padding: 1rem 1rem;
+   border-radius: 1rem;
+   cursor: pointer;
+}
+
+.box-2 {
+   width: 50%;
+   padding: 5%;
+}
+.box-2 img {
+   width: 100%;
+}
+
+@media (max-width: 780px) {
+   html {
+      font-size: 65%;
+   }
+
+   .box-1 h1 {
+      font-size: 1.5rem;
+   }
+
+   .box-1 h1 span {
+      font-size: 1.7rem;
+   }
+
+   .box-1 img {
+      width: 2rem;
+   }
+   .box-1 input {
+      width: 100%;
+      font-size: 1.5rem;
+   }
+   .box-1 button img {
+      width: 1.5rem;
+   }
+   .box-1 button {
+      font-size: 1.2rem;
+   }
+
+   .box-2 {
+      width: 50%;
+   }
+   .box-2 img {
+      width: 100%;
+   }
+}
+
+@media (max-width: 480px) {
+   html {
+      font-size: 50%;
+   }
+   .container {
+      width: 100%;
+      flex-direction: column;
+   }
+   .box-1 {
+      width: 100%;
+      padding: 0 5%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+   }
+
+   .box-1 h1 {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      font-size: 2.5rem;
+   }
+
+   .box-1 h1 span {
+      font-size: 3rem;
+   }
+
+   .box-1 img {
+      width: 3rem;
+   }
+   .box-1 input {
+      width: 100%;
+      font-size: 2rem;
+   }
+   .box-1 button img {
+      width: 2rem;
+   }
+   .box-1 button {
+      font-size: 2rem;
+   }
+
+   .box-2 {
+      width: 100%;
+      padding: 5%;
+      margin-top: 3rem;
+   }
+   .box-2 img {
+      width: 100%;
+   }
+}
